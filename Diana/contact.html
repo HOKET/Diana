@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>皎月女神</title>
+  <script src="scripts/modernizr-1.6.min.js"></script>
+  <link rel="stylesheet" media="screen" href="styles/basic.css" />
+</head>
+<body>
+<!-- 头部导航栏 -->
+  <header>
+    <img src="images/head5.png" alt="月亮夜景" />
+    <nav>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="skill.html">技巧</a></li>
+        <li><a href="photos.html">技能介绍</a></li>
+        <li><a href="rank.html">排行榜</a></li>
+        <li><a href="contact.html">联系作者</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 文章内容 -->
+<article>
+  <h1>联系作者</h1>
+  <form method="post" action="submit.html">
+    <fieldset>
+      <p>
+       <label for="name">姓名:</label>
+       <input type="text" id="name" name="姓名" placeholder="请输入您的姓名" required="required" />
+      </p>
+      <p>
+       <label for="email">邮箱:</label>
+       <input type="email" id="email" name="邮箱" placeholder="请输入您的邮箱" required="required" />
+      </p>
+      <p>
+       <label for="message">留言:</label>
+       <textarea cols="45" rows="7" id="message" name="留言" required="required" placeholder="请输入您的留言..."></textarea>
+      </p>
+      <input type="submit" value="发送" />
+     </fieldset>
+  </form>
+</article>
+
+<script src="scripts/global.js"></script>
+</body>
+</html>
